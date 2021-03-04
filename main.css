@@ -96,3 +96,23 @@ h3 {
     font-style: italic;
     text-decoration: none;
 }
+
+@media (min-width: 600px) {
+    .profile-card {
+        display: flex;
+    }
+    .profile-sidebar {
+        width: 30%;
+    }
+    .profile-main {
+        width: 70%;
+    }
+    p,
+    h1,
+    h3 {
+        text-align: left;
+    }
+    .about {
+        width: 98%;
+    }
+}
